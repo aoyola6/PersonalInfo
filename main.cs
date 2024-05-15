@@ -2,16 +2,16 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-   string name =  "Lucinda Potter";
+   string name =  "John Smith";
     Console.WriteLine("Name: " + name); 
     
-    DateOnly dateofBirth = new DateOnly(1992, 6, 24);
+    DateOnly dateofBirth = new DateOnly(1978, 8, 15);
     Console.WriteLine("Date of Birth: " + dateofBirth);
     
-    string workNumber = "000-000-0101";
+    string workNumber = "000-111-0101";
     Console.WriteLine("Work Phone: " + workNumber);
     
-    string cellNumber = "000-000-0189";
+    string cellNumber = "000-111-0189";
     Console.WriteLine("Cell Phone: " + cellNumber);
   }
 } 
